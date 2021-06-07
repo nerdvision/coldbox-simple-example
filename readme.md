@@ -36,6 +36,3 @@ box server start
 And run the application.
 
 ---
- 
-###THE DAILY BREAD
- > "I am the way, and the truth, and the life; no one comes to the Father, but by me (JESUS)" Jn 14:1-12
