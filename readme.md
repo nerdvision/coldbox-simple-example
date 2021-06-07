@@ -10,6 +10,14 @@ Apache License, Version 2.0.
 Source Code
 - https://github.com/coldbox-templates/simple
 
+## Docker Installation
+
+To Use this application in a docker environment you can use the [ortussolutions/commandbox](https://hub.docker.com/r/ortussolutions/commandbox/) image, with the following configuration:
+
+```bash
+docker run -p 80:80 -p 443:443 -e "PORT=80" -e "SSL_PORT=443" -v "${PWD}:/app" -e BOX_INSTALL=true -e NV_API_KEY="your-key" -e NV_NAME="some-test" -e NV_TAGS="thing=one;other=bob"  ortussolutions/commandbox
+```
+
 ## Quick Installation
 
 Each application templates contains a `box.json` so it can leverage [CommandBox](http://www.ortussolutions.com/products/commandbox) for its dependencies.  

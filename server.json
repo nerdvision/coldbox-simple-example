@@ -3,5 +3,20 @@
         "rewrites":{
             "enable":"true"
         }
+    },
+	"fusionreactor": {
+		"licenseKey": "${FR_LICENSE_KEY}",
+		"cloudGroup": "${FR_CLOUDGROUP:coldbox}",
+		"enable": true,
+		"licenseDeactivateOnShutdown": true,
+		"defaultApplicationName": "${FR_DEFAULTAPPNAME:'coldbox-simple-example'}",
+		"autoApplicationNaming": false,
+		"port": 8686,
+		"debugEnable": false
+	},
+    "nerdvision":{
+		"apikey": "${NV_API_KEY}",
+		"name": "${NV_NAME:'coldbox-simple-example'}",
+		"tags": "${NV_TAGS:''}"
     }
 }

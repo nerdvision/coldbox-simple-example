@@ -21,11 +21,13 @@
         "testbox":"^4.0.0"
     },
     "installPaths":{
-        "coldbox":"coldbox",
-        "testbox":"testbox"
+        "coldbox":"coldbox/",
+        "testbox":"testbox/"
     },
     "dependencies":{
-        "coldbox":"^6.0.0"
+        "coldbox":"^6.0.0",
+        "nerdvision":"1.0.6",
+        "commandbox-fusionreactor":"4.0.9"
     },
     "scripts":{
         "postPublish":"!git push --follow-tags",
